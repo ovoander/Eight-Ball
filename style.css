@@ -1,0 +1,46 @@
+* {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+html {
+    background-color: #1e293b;
+    color: #f1f5f9;
+}
+
+i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    background-color: #334155;
+    padding: 10px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px #0f172a;
+}
+
+#home-button {
+    text-decoration: none;
+    color: #f1f5f9;
+    font-size: 40px;
+    font-weight: 700;
+    user-select: none;
+}
+
+#account-button {
+    margin-left: auto;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #f1f5f9;
+    transition: 150ms background-color;
+}
+
+#account-button:hover {
+    background-color: #475569;
+}
